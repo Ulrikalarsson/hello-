@@ -1,0 +1,56 @@
+/* base */
+
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    line-height: 1.1;
+    margin: 20px 0 10px 0;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+  
+  
+  }
+  h2 {
+    line-height: 1.5;
+    margin: 20px 0 10px 0;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+  
+  }
+  h3 {
+    line-height: 1.1;
+    margin: 20px 0 10px 0;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    
+  }
+ 
+
+
+/* SIDHUVUD 
+ */
+ .toggle-menu {
+  display: none;
+}
+
+.site-navigation {
+  
+  position: static;
+  /* detta behövs inte mer */
+  /* top: 20px;
+  right: 20px; */
+  /* left: auto;
+  width: auto; */
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end; /* flyttar objekten till höger i raden */
+  align-items: flex-end; /* flyttar raden längst ner i containern */
+}
+.site-navigation a {
+  display: inline-block;
+  font-size: 1rem;
+}
