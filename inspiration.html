@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startsida</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" media="(min-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width:1200px)" href="css/desktop.css">
+    <link rel="stylesheet" media="(min-width:960px)" href="css/laptop.css">
+</head>
+<body>
+<a href="#to-content"><span class="sr-only">Hoppa till innehållet</span></a>
+<div id="top-of-page" class="site">
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">
+                <a href="index.html">
+                <img class="logo" src="images/skarmbild.png" alt="">
+               </a> 
+            </div>
+       
+            <a class="btn toggle-menu" href="#"><i class="fas fa-bars fa-fw"></i></a>
+             <nav class="site-navigation"> 
+                    <a href="landningssida.html">Erbjudande</a> 
+                    <a href="massage.html">Massage</a> 
+                    <a href="bokning.html">Boka här</a>
+                    <a href="https://www.instagram.com/hornetuddevalla/?hl=sv">Inspiration</a>
+                    <a href="om oss.html">Om oss</a>
+            </nav>
+        </div>
+    </header> 
+     
+
+<div class="header">
+    <h1>Inspiration</h1>
+  </div>
+<br>
+<br>
+
+  <main class="site-main">
+    <div class="main-title"></div><br>
+    <div class="grid-container-main">
+        <div class="main-item pic1"><a href="tjanster.html"><img src="images/ease-3106608_1920.jpg" alt=""></a>
+            <h2>Ansiktsmassage</h2>
+        </div>
+        <div class="main-item pic2"><img src="images/toner-906142_1920.jpg" alt="">
+            <h2>Naturliga råvaror</h2>
+        </div>
+        <div class="main-item pic3"><img src="images/massage-599532_1920.jpg" alt="">
+            <h2>Thailänska stenar</h2>
+        </div>
+        <div class="main-item pic4"><img src="images/essential-oils-3084952_1280.jpg" alt="">
+            <h2>Kryddigt</h2>
+        </div>
+    </div>
+
+<!--</main>
+ <div class="column w25 social-links">
+        <h3>Följ oss gärna</h3>
+        <ul>
+            <li><a href="https://facebook.com"><i class="fab fa-facebook fa-fw "></i><span class="sr-only">Facebook</span></a></li>
+            <li><a href="https://instagram.com"><i class="fab fa-instagram fa-fw"></i><span class="sr-only">Instagram</span></a></li>                        
+        </ul>
+    </div>-->
+  
+    <footer class="site-footer">
+        <!-- I sidfot lägger vi ex. kontaktuppgifter, extra menyer m.m. -->
+        <div class="container">
+            <div class="row">                    
+                <div class="column w25 contact">
+                    <img class="logo" src="images/" alt="">
+                    <address>
+                        <h3>Ulrikas Spa AB</h3>
+                        <p>Oljegatan 1<br>
+                        123 45 Storstaden</p>
+                    </address>
+                    <div class="phone"><i class="fas fa-phone fa-fw"></i><a href="tel:+46123456789">+46 1234 567 89</a></div>
+                    <div class="email"><i class="fas fa-envelope fa-fw"></i><a href="mailto:info@ulrikasspa.se">info@ulrikasspa.se</a></div>
+                </div>
+
+                <div class="column w25 links">
+                    <h3>Snabblänkar</h3>
+                    <ul>
+                        <li><a href="index.html">Startsida</a></li>
+                        <li><a href="tjanster.html">Våra tjänster</a></li>
+                        <li><a href="om oss.html">Om företaget</a></li>
+                        <li><a href="kontakt.html">Kontakta oss</a></li>
+                    </ul>
+                </div>
+                <div class="column w25 social-links">
+                <div class="quick-contact">
+                    <h3>Snabbkontakt</h3>
+                    <form>
+                        <label for="email">Lämna din E-post ...</label>
+                        <input type="email" id="email" placeholder="Din E-post">
+                        ... så hör vi av oss<br>
+                        <input type="submit" value="Skicka">
+                    </form>
+                </div>
+                </div>
+
+                <div class="column w25 social-links">
+                    <h3>Följ oss gärna</h3>
+                    <ul>
+                        <li><a href="https://facebook.com"><i class="fab fa-facebook fa-fw "></i><span class="sr-only">Facebook</span></a></li>
+                        <li><a href="https://instagram.com"><i class="fab fa-instagram fa-fw"></i><span class="sr-only">Instagram</span></a></li>                        
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="contact"></div>
+
+            <p>&copy; Skapad av Ulrikas Spa 2020</p>
+        </div>
+    </footer>
+</div>
+
+</div>
+
+<!-- Hämta jQuery från CDN https://cdnjs.com/libraries/jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script>
+      // Här kan man lägga javascript
+    (function($){
+        $('.toggle-menu').click( function() {
+            $('.site-navigation').toggleClass('show');
+        });
+    })(jQuery);
+  
+</script>
+</body>
+</html>
